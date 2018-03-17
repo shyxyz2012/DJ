@@ -1,0 +1,218 @@
+body,html{
+    height: 100%;
+}
+/*党建要闻搜索框部分开始*/
+.search{
+    width: 100%;
+    height: 50px;
+    background: #F5F5F5;
+    padding: 15px 0 0 0;
+    box-sizing: border-box;
+}
+.searchContain{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.searchContain .edit{
+    width: 20px;
+    height: 30px;
+}
+.searchContain .edit span{
+    font-family: iconfont;
+    color: #9A9A9A;
+    font-size: 20px;
+}
+.searchContain .edit p{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #D8573F;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-align: center;
+    line-height: 15px;
+    position: relative;
+    bottom: 40px;
+    left: 15px;
+}
+.searchContain .searchIn{
+    width: 250px;
+    height: 22px;
+    background: #FFFFFF;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+}
+.searchContain .searchIn small{
+    font-family: iconfont;
+    color: #e4e4e4;
+    font-size: 16px;
+    padding: 5px 0 0 5px;
+}
+.searchContain .searchIn input{
+    border: none;
+    outline: none;
+    font-size: 12px;
+    color: #e4e4e4;
+}
+/*党建要闻搜索框部分结束*/
+
+/*导航部分开始*/
+#nav{
+    width: 100%;
+}
+#nav .navTitle{
+    width: 90%;
+    margin: 0 auto;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+#nav .navTitle div{
+    width: 25%;
+    height: 30px;
+    margin-left: 20px;
+}
+#nav .navTitle a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    display: inline-block;
+    text-align: center;
+}
+#nav .navTitle .active a{
+    color: #BD6261;
+    border-bottom: 2px solid #BD6261;
+}
+/*导航部分结束*/
+
+/*轮播图部分*/
+.navContain{
+    margin-top: 5px;
+}
+.navContain > div{
+    width: 100%;
+    position: relative;
+}
+.navContain .phoS img{
+    width: 100%;
+    height: 180px;
+    position: absolute;
+}
+.navContain .tabS{
+    width: 60px;
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    top: 160px;
+}
+.navContain .tabS div{
+    border-radius: 50%;
+    background: #FFFFFF;
+    float: left;
+    padding: 6px 0 0 6px;
+    margin-left: 3px;
+}
+.navContain .tabS div:first-child{
+    background: #000;
+}
+
+/*大会列表部分*/
+#meetList{
+    width: 90%;
+    position: fixed;
+    bottom: 0;
+    left: 5%;
+    font-size: 12px;
+}
+#meetList > div{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+#meetList .img{
+    width: 75px;
+    height: 60px;
+}
+#meetList img{
+    width: 75px;
+    height: 55px;
+}
+#meetList span{
+    position: relative;
+    bottom: 10px;
+    color: #9A9A9A;
+}
+.meetTitle p{
+    position: relative;
+    bottom: 10px;
+}
+.meetTitle{
+    border-bottom: 1px solid #e4e4e4;
+    height: 55px;
+    width: 200px;
+}
+
+/*当搜索框获取焦点时让隐藏的div显示*/
+#hideDiv{
+    width: 100%;
+    height: 100%;
+    background: rgba(126,126,127,0.9);
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+.hideType{
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px solid #e4e4e4;
+    background: #FFFFFF;
+}
+.hideType .typeMany{
+    width: 90%;
+    margin: 0 auto;
+}
+.hideType .typeMany p{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #e4e4e4;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.hideType .typeMany p:last-child{
+    margin-top: -5px;
+}
+.type{
+    width: 100%;
+    background: #FFFFFF;
+    overflow: hidden;
+    clear: both;
+}
+.type .typeIn{
+    width: 90%;
+    margin: 0 auto;
+}
+.type .typeIn .typeTitle{
+    font-size: 12px;
+    color: #9A9A9A;
+    margin-left: 5px;
+}
+.type .typeIn > div p{
+    color: #FFFFFF;
+    font-size: 14px;
+    background: #DC5739;
+    border-radius: 8px;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    margin-left: 6px;
+    margin-top: -1px;
+}

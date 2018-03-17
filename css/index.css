@@ -1,0 +1,196 @@
+/*首页头部开始*/
+body{
+    background: #F0EFF4;
+    height: 100%;
+}
+#homeHeader{
+    width: 100%;
+    height: 60px;
+    background:#4F77AA;
+    /*overflow: hidden;*/
+}
+#homeHeader a{
+    text-decoration: none;
+}
+.headerInner{
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.headerInner span{
+    font-family: iconfont;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.headerInner .first{
+    font-size: 20px;
+    position: absolute;
+    left: 40px;
+}
+/*应用部分开始*/
+.homeContain{
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+.homeContain > div{
+    width: 25%;
+    height: 100px;
+    float: left;
+    position: relative;
+    /*background: #FFFFFF;*/
+}
+.homeContain > div > div{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    left: 18px;
+    top: 15px;
+}
+.homeContain p{
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    color: #000;
+    left: 10px;
+}
+.homeContain span{
+    font-family: iconfont;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height:44px;
+}
+.containO > div{
+    background: #FD6766;
+}
+.containT > div{
+    background: #FAAB37;
+}
+.containH > div{
+    background: #FF7731;
+}
+.containF > div{
+    background: #FE7831;
+}
+.containV > div{
+    background: #2DB7E5;
+}
+.containX > div{
+    background: #FEA936;
+}
+.containS > div{
+    background: #2DB7E5;
+}
+.containE > div{
+    background: #BABABA;
+}
+.containE p{
+    margin-left: 15px;
+}
+/*应用部分结束*/
+
+/*我的积分部分开始*/
+.scrollDiv{
+    width: 65%;
+    height: 27px;
+    overflow: hidden;
+    position: relative;
+    top: 10px;
+}
+#myScore{
+    width: 100%;
+    height: 50px;
+    background: #F8F8F8;
+    clear: both;
+}
+.scoreAll{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.scoreAll span{
+    font-family: iconfont;
+    color: #FAAB37;
+    float: left;
+    font-size: 20px;
+    line-height: 50px;
+}
+.scoreAll small{
+    color: #000;
+    font-size: 14px;
+}
+.scoreAll ul{
+    width: 70%;
+    height: 27px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    display: none;
+}
+.scoreAll .scroll1 li{
+    list-style: none;
+    font-size: 12px;
+    height: 13px;
+}
+.scoreAll .scroll2{
+    position: relative;
+    left: 25px;
+    bottom: 0;
+}
+.scoreAll .scroll2 li{
+    list-style: none;
+    font-size: 12px;
+    height: 13px;
+}
+.scoreAll ins{
+    text-decoration: none;
+    color: #FAAB37;
+}
+/*我的积分部分结束*/
+
+/*首页底部部分开始*/
+#homeFooter{
+    clear: both;
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    border-top: 2px solid #E3E3E3;
+}
+.footerInner{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    /*background: red;*/
+    position: relative;
+}
+.footerInner div{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+}
+.footerInner span{
+    font-family: iconfont;
+    color: #B8B8B8;
+    font-size: 24px;
+}
+.footerInner p{
+    position: absolute;
+    top: 15px;
+    font-size: 14px;
+    color: #B8B8B8;
+}
+/*首页底部部分结束*/
+/*首页头部结束*/

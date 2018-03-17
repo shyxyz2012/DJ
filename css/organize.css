@@ -1,0 +1,132 @@
+body{
+    height: 100%;
+    background: #F6F4F5;
+}
+/*头部搜索框部分开始*/
+#search{
+    width: 100%;
+    height: 40px;
+    background: #F6F4F5;
+    line-height: 40px;
+    padding: 7px 0 0 0;
+    box-sizing: border-box;
+}
+.searchInner{
+    width: 90%;
+    height: 25px;
+    border: 1px solid #F0F0F0;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.searchInner input{
+    font-size: 12px;
+    border: none;
+    outline: none;
+    width: 225px;
+    margin-left: 5px;
+}
+.searchInner div{
+    width: 40px;
+    height: 100%;
+    background: #D8563D;
+   border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.searchInner span{
+    font-family: iconfont;
+    color: #FFFFFF;
+    position: relative;
+    left: 13px;
+    bottom: 7px;
+}
+/*头部搜索框部分结束*/
+
+/*首页部分开始*/
+#organizeHome{
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    line-height: 40px;
+}
+#organizeHome span{
+    margin-left: 5%;
+    color: #D8563D;
+    font-size: 12px;
+}
+#homeAll{
+    width: 100%;
+    background: #FFFFFF;
+    margin-top: 2px;
+}
+.homeAll_in{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.homeAll_in .first{
+    font-family: iconfont;
+    background: #DB5539;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+.homeAll_in .first span{
+    position: relative;
+    left: 6px;
+    bottom: 9px;
+}
+.homeAll_in div:nth-child(2){
+    border-bottom: 2px solid #F6F4F5;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+    font-size: 14px;
+}
+.homeAll_in div:nth-child(2) small{
+    font-family: iconfont;
+    color: #9A9A9A;
+    font-size: 24px;
+}
+/*首页部分结束*/
+
+/*底部开始*/
+#organizeFooter{
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+}
+.footer{
+    width: 90%;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer ins{
+    text-decoration: none;
+    color: #e4e4e4;
+}
+.footer span{
+    font-family: iconfont;
+    font-size: 16px;
+    color: #DB5341;
+}
+.footer small{
+    font-family: iconfont;
+    font-size: 16px;
+    color: #9A9A9A;
+}
+/*底部结束*/

@@ -1,0 +1,152 @@
+body{
+    height: 100%;
+    background: #F6F4F5;
+}
+/*头部搜索框部分开始*/
+#search{
+    width: 100%;
+    height: 40px;
+    background: #F6F4F5;
+    line-height: 40px;
+    padding: 7px 0 0 0;
+    box-sizing: border-box;
+}
+.searchInner{
+    width: 90%;
+    height: 25px;
+    border: 1px solid #F0F0F0;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.searchInner input{
+    font-size: 12px;
+    border: none;
+    outline: none;
+    width: 225px;
+    margin-left: 5px;
+}
+.searchInner div{
+    width: 40px;
+    height: 100%;
+    background: #D8563D;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.searchInner span{
+    font-family: iconfont;
+    color: #FFFFFF;
+    position: relative;
+    left: 13px;
+    bottom: 7px;
+}
+/*头部搜索框部分结束*/
+
+/*首页部分开始*/
+#organizeHome{
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid#e4e4e4;
+}
+#organizeHome span{
+    margin-left: 5%;
+    color: #D8563D;
+    font-size: 12px;
+}
+#organizeHome small{
+    font-family: iconfont;
+    font-size: 20px;
+    color: #9A9A9A;
+    position: relative;
+    top: 3px;
+}
+#organizeHome ins{
+    text-decoration: none;
+    color: #9A9A9A;
+}
+#organizeHome label{
+    color: #0033FF;
+    font-size: 12px;
+    margin-right: 5%;
+}
+#homeAll{
+    width: 100%;
+    background: #FFFFFF;
+    margin-top: 2px;
+}
+.homeAll_in{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.homeAll_in .first1,.homeAll_in .first2,.homeAll_in .first3,.homeAll_in .first4{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    overflow: hidden;
+    background: red;
+}
+.homeAll_in .first1{
+    background: url("../image/2.PNG") no-repeat -5px;
+}
+.homeAll_in .first2{
+     background: url("../image/girl1.PNG") no-repeat -5px;
+ }
+.homeAll_in .first3{
+    background: url("../image/girl3.PNG") no-repeat;
+}
+.homeAll_in .first4{
+    background: url("../image/girl4.PNG") no-repeat;
+}
+.homeAll_in div:nth-child(2){
+    border-bottom: 2px solid #F6F4F5;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+    font-size: 14px;
+}
+.two b{
+    position: relative;
+    top: 8px;
+}
+.homeAll_in div:nth-child(2) small{
+    font-family: iconfont;
+    color: #9A9A9A;
+    font-size: 22px;
+    margin-right: 5%;
+    position: relative;
+    top: 12px;
+}
+.homeAll_in p{
+    font-size: 12px;
+    color: #e4e4e4;
+}
+/*首页部分开始结束*/
+
+/*底部开始*/
+#jobFooter{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    background: #DC5739;
+    line-height: 40px;
+    box-sizing: border-box;
+    padding: 0 0 0 100px;
+}
+#jobFooter span{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+/*底部结束*/
